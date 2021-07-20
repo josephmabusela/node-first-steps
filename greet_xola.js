@@ -8,7 +8,7 @@ const styledMessage = chalk.bgGreen.black(greet('Xola'));
 
 console.log(styledMessage);
 
-console.log(figlet.textSync('Xola', {
+console.log(figlet.textSync('Hello, Xola', {
     font: 'Ghost',
     horizontalLayout: 'default',
     verticalLayout: 'default',
